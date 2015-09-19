@@ -137,7 +137,7 @@ median(total_steps_taken_per_day$total_steps)
 ## [1] 10766.19
 ```
 
-It is also observed that the mean and median of the overall data hasn't changed from original data with missing observations.
+It is also observed that the mean and median of the overall data hasn't changed much from original data with missing observations.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
