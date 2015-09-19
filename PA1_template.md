@@ -96,7 +96,7 @@ nrow(activity_data[is.na(activity_data$steps),])
 ```
 
 ### Strategy to impute missing data:
-A simple stretegy to replace NAs with mean steps for intervals is applied.
+A simple strategy to replace NAs with mean steps for intervals is applied.
 
 ```r
 library(plyr)
@@ -117,7 +117,7 @@ qplot(total_steps, data = total_steps_taken_per_day, geom = "histogram")
 
 ![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png) 
 
-It is observed that even though the total number of step have increased as expected, applying the above mentioned strategy to replace missing step data with interval mean hasnt changed the overall distribution.
+It is observed that even though the total number of step have increased as expected, applying the above mentioned strategy to replace missing step data with interval mean hasn't changed the overall distribution.
 
 ###Mean and median of total steps taken per day are:
 
@@ -137,7 +137,7 @@ median(total_steps_taken_per_day$total_steps)
 ## [1] 10766.19
 ```
 
-It is also observed that the mean and median of the overall data hasnt changed from original data with missing observations.
+It is also observed that the mean and median of the overall data hasn't changed from original data with missing observations.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
